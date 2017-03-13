@@ -1,0 +1,210 @@
+﻿    <div class="container">
+        <div class="jumbotron welcome-wall">
+            <h1>欢迎访问<br />
+                北京国际数学研究中心<br />
+                数字化图书馆</h1>
+        </div>
+
+        <!-- Example row of columns -->
+        <div class="row">
+
+            <div class="col-md-8">
+                
+                <h2 class="section-title">图书查询</h2>
+
+                <form class="form-inline" role="form">
+
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" id="keywords" placeholder="书名/作者/标签">
+
+                        <span class="input-group-btn" style="width: 1%; display: table-cell; vertical-align: middle;">
+                            <button class="btn btn-primary" type="button"><i class="fa fa-search fa-lg"></i> 查询</button>
+                        </span>                        
+                    </div>
+                </form>
+                <span class="help-block" style="padding-left: 10px;">注：这里仅搜索数学学科下的图书，也可在搜索选项中修改。</span>        
+                
+                <div class="clear"></div>
+                
+                <div class="panel-group" id="tags-cloud" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-heading-custom" role="tab" id="toggle-tagscloud">
+
+                          <h4 class="panel-title text-center">
+                            <a data-toggle="collapse" data-parent="#tags-cloud" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              选择一个标签查询
+                            </a>
+                          </h4>
+
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="toggle-tagscloud">
+                            <div class="panel-body">
+                                <button class="btn btn-danger btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Algebra</button>
+                                <button class="btn btn-danger btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Algebraic Geometry</button>
+                                <button class="btn btn-danger btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Geometric Analysis</button>
+                                <button class="btn btn-danger btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Number Theory</button>
+                                <div class="clear"></div>
+                                <button class="btn btn-warning btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Symplectic Geometry</button>
+                                <button class="btn btn-warning btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Topology</button>
+                                <button class="btn btn-warning btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Quantum Math</button>
+                                <button class="btn btn-warning btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Symplectic Geometry</button>
+                                <button class="btn btn-warning btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Topology</button>
+                                <div class="clear"></div>
+                                <button class="btn btn-success btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Algebra</button>
+                                <button class="btn btn-success btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Algebraic Geometry</button>
+                                <button class="btn btn-success btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Geometric Analysis</button>
+                                <button class="btn btn-success btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Number Theory</button>
+                                <div class="clear"></div>
+                                <button class="btn btn-info btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Symplectic Geometry</button>
+                                <button class="btn btn-info btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Topology</button>
+                                <button class="btn btn-info btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Quantum Math</button>
+                                <button class="btn btn-info btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Symplectic Geometry</button>
+                                <button class="btn btn-info btn-tag" type="button"><i class="fa fa-tag fa-lg"></i> Topology</button>
+
+                                <div class="col-sm-5">
+                                    <hr />
+                                </div>
+                                <div class="col-sm-2">
+                                    <h4 class="text-center"><a href="#" target="_blank" class="anchorinline">更多标签...</a></h4>
+                                </div>
+                                <div class="col-sm-5">
+                                    <hr />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 book-with-3d-cover" id="book-recommend">                       
+                    <div class="inset-top"></div>                 
+                    <volist name="recommend" id="d">
+                    <div class="book-cover books-3d">
+                        <div class="book-3d">                            
+                            <a href="__MODULE__/Book/detail/id/{$d.id}">
+                                <img src="http://pku.summon.serialssolutions.com/2.0.0/image/custom?url=http%3A%2F%2F202.112.150.126%2Findex.php%3Fclient%3Dpku%26isbn%3D9781603842020%2Fcover&size=large" title="book title" alt="book title"/>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="book-desc">
+                        <div class="ribbon"><a href="__MODULE__/Book/detail/id/{$d.id}">推荐阅读</a></div>
+                        <h3>{$d.title}</h3>
+                        <hr />
+                        <dl class="dl-horizontal">
+                            <dt>作者</dt>
+                            <dd>{$d.author}</dd>
+                            <dt>出版社</dt>
+                            <dd>{$d.publisher}</dd>
+                            <dt>出版日期</dt>
+                            <dd>{$d.publishdate}</dd>
+                            <dt>摘要</dt>
+                            <dd>{$d.summary|msubstr=0,150,'utf-8',true}</dd>
+                        </dl>
+
+                        <div class="col-md-12 text-center">
+                            <a href="__MODULE__/Book/detail/id/{$d.id}"><button type="button" class="btn btn-primary"><i class="fa fa-mail-forward"></i> 阅读</button></a>
+                            <button type="button" class="btn btn-danger"><i class="fa fa-bookmark"></i> 收藏</button>
+                        </div>
+                    </div>
+                    </volist>
+
+                    <div class="inset-bottom"></div>
+                </div>
+
+                <h2 class="section-title">新进书目</h2>                
+
+                <div id="books-carousel" class="carousel slide books" data-ride="carousel" data-interval="7000">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="text-center">
+                                <volist name="books" id="d" offset="0" length="2">
+                                <!-- ITEM-->
+                                <div class="book-item col-md-6">
+                                    <div class="book-item-cover">
+                                        <a href="__MODULE__/Book/detail/id/{$d.id}">
+                                            <img src="http://pku.summon.serialssolutions.com/2.0.0/image/custom?url=http%3A%2F%2F202.112.150.126%2Findex.php%3Fclient%3Dpku%26isbn%3D9781603842020%2Fcover&size=small"></a>
+                                    </div>
+                                    <div class="book-item-desc">
+                                        <h3>{$d.title}</h3>
+                                        <hr  class="hr-small-margin" />
+                                        <p>{$d.summary|msubstr=0,60,'utf-8',true}</p>
+                                    </div>
+                                </div>
+                                <!-- ITEM-->
+                                </volist>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="text-center">
+                                <volist name="books" id="d" offset="2" length="2">
+                                <!-- ITEM-->
+                                <div class="book-item col-md-6">
+                                    <div class="book-item-cover">
+                                        <a href="__MODULE__/Book/detail/id/{$d.id}">
+                                            <img src="http://pku.summon.serialssolutions.com/2.0.0/image/custom?url=http%3A%2F%2F202.112.150.126%2Findex.php%3Fclient%3Dpku%26isbn%3D9781603842020%2Fcover&size=small"></a>
+                                    </div>
+                                    <div class="book-item-desc">
+                                        <h3>{$d.title}</h3>
+                                        <hr  class="hr-small-margin"/>
+                                        <p>{$d.summary|msubstr=0,60,'utf-8',true}</p>
+                                    </div>
+                                </div>
+                                <!-- ITEM-->
+                                </volist>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 books-control text-center">
+                        <button class="books-ctrl books-ctrl-left"><i class="fa fa-arrow-left fa-lg"></i></button>
+                        <button class="books-ctrl books-ctrl-right"><i class="fa fa-arrow-right fa-lg"></i></button>
+                    </div>
+
+                </div>
+
+                </div>
+
+            <div class="col-md-4 sidebar">
+
+                <div class="panel panel-default" id="opening-time-box">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-clock-o fa-lg"></i> 开放时间</h3>
+                    </div>
+                    <div class="panel-body text-center time-open-close-content">
+                        周一至周五 <span class="time-open-close">8:00 - 22:00</span>
+                        <hr style="margin:2px 0;"/>
+                        <span class="time-open-close-note">遵照学校节假日休息安排</span>
+                    </div>
+                </div>
+
+                <div class="panel panel-default " id="article-box">
+                    <div class="panel-heading">
+                    <h3 class="panel-title"><i class="fa fa-list fa-lg"></i> 最近新闻</h3>
+                    </div>
+                    <div class="panel-body article-body">
+                    <volist name="news" id="d">
+                        <div class="article">
+                            <h3 class="article-title"><a href="__MODULE__/News/detail/id/{$d.id}" target="_blank">{$d.title}</a></h3>
+                            <p>{$d.content|msubstr=0,75,'utf-8',true}</p>
+                        </div>
+
+                            <div class="col-md-8 article-pubdate">发布日期：{$d.posttime}</div>
+                            <div class="col-md-4 article-more"><a href="__MODULE__/News/detail/id/{$d.id}" target="_blank">阅读 <i class="fa fa-angle-double-right"></i></a></div>
+                        
+
+                        <hr  class="hr-small-margin"/>
+                    </volist>
+                    </div>
+
+                    <div class="panel-footer text-center">
+                        <a href="__MODULE__/News/lists" target="_blank">全部新闻 <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div><!-- /container -->

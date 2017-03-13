@@ -1,0 +1,37 @@
+    	<div class="col-md-10 col-md-offset-2 ">
+    	  <ol class="breadcrumb">
+    	    <li><a href="__MODULE__/Index/index">首页</a></li>
+    	    <li><a href="__MODULE__/Admin/lists">帐户管理</a></li>
+    	    <li class="active">个人信息修改</li>
+  	    </ol>
+    	  <div class="table-responsive ">
+    	    <h3>个人信息修改 <small>Personal Modify</small></h3>
+    	    <div class="list-group ">
+    	      <div class="list-group-item">
+    	        <form role="form" method="post" action="__MODULE__/Admin/doEdit">
+              <volist name="admin_users" id="d">
+    	          <div class="input-group"> <span class="input-group-addon">用<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">户<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">名：</span>
+    	            <input type="text" class="form-control" placeholder="administrator" readonly value="{$d.username}" name="username">
+  	            </div>
+    	          <div class="input-group "> <span class="input-group-addon" for="inputWarning1">真实姓名：</span>
+    	            <input type="text" class="form-control" placeholder="张黎明" id="input" value="{$d.realname}" name="realname">
+  	            </div>
+    	          <div class="input-group"> <span class="input-group-addon">手机号码：</span>
+    	            <input type="text" class="form-control" placeholder="13025458799" value="{$d.tel}" name="tel">
+  	            </div>
+    	          <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
+    	            <input type="text" class="form-control" placeholder="86823499@qq.com" value="{$d.mail}" name="mail">
+  	            </div>
+    	          <div class="input-group"> <span class="input-group-addon">注册时间：</span>
+    	            <input type="text" class="form-control" value="{$d.regtime}" name="regtime" readonly>
+  	            </div>
+                <input type="hidden" value="{$d.id}" name="id" />
+    	          <div class="input-group">
+    	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="__PUBLIC__/end/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>
+  	            </div>
+                </volist>
+  	          </form>
+  	        </div>
+  	      </div>
+  	    </div>
+  	  </div>

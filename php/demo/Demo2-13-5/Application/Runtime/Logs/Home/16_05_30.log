@@ -1,0 +1,2810 @@
+[ 2016-05-30T14:09:32+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-05-30T14:10:02+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-05-30T14:10:03+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-05-30T14:11:57+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-05-30T14:11:59+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/%7BAPP_PATH%7D/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+ERR: 非法操作:{APP_PATH}
+
+[ 2016-05-30T14:12:16+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/%7BAPP_PATH%7D/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+ERR: 非法操作:{APP_PATH}
+
+[ 2016-05-30T14:12:19+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-05-30T14:12:21+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+ERR: 非法操作:index.php
+
+[ 2016-05-30T14:12:33+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-05-30T14:12:41+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-05-30T14:12:42+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-05-30T14:13:45+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-05-30T14:15:39+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-05-30T14:17:24+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-05-30T14:17:44+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-05-30T14:17:46+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-30T14:17:46+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-05-30T14:17:47+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-05-30T14:17:47+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-05-30T14:17:48+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-05-30T14:17:48+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-05-30T14:17:48+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-05-30T14:17:48+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-05-30T14:17:49+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-30T14:17:49+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-05-30T14:17:49+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-05-30T14:17:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-05-30T14:17:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-05-30T14:17:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-05-30T14:17:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-05-30T14:17:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-05-30T14:17:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-05-30T14:17:51+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-05-30T14:17:51+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-30T14:17:51+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-30T14:19:18+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-05-30T14:21:34+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `news_article` (`catid`,`title`,`content`,`author`) VALUES ('1','thinkphp','tttttttttt','tp')
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `news_article` (`catid`,`title`,`content`,`author`) VALUES ('1','thinkphp','tttttttttt','tp')
+
+[ 2016-05-30T14:23:06+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `news_article` (`catid`,`title`,`content`,`author`) VALUES ('1','thinkphp','tttttttttt','tp') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-05-30T14:29:24+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `news_article` (`catid`,`title`,`content`,`author`) VALUES ('1','xxxxxx','xxxxx','xxxxx') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-05-30T14:29:40+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `news_article` (`catid`,`title`,`content`,`author`,`inserttime`,`updatetime`) VALUES ('1','xxxxxx','xxxxx','xxxxx','2016-05-30 14:29:40','2016-05-30 14:29:40') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-05-30T14:34:01+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `news_article` (`catid`,`title`,`content`,`author`,`inserttime`,`updatetime`) VALUES ('1','ssssss','sssss','ssssss','2016-05-30 14:34:01','2016-05-30 14:34:01') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.018303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036457s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.036908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-05-30T14:34:02+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-05-30T14:39:18+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-05-30T14:39:23+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-30T14:39:37+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `news_article` (`catid`,`title`,`content`,`author`,`inserttime`,`updatetime`) VALUES ('1','aaaaaa','aaaa','aaaa','2016-05-30 14:39:37','2016-05-30 14:39:37') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-05-30T14:39:38+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-05-30T14:40:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2016-05-30T14:42:31+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-05-30T14:44:17+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: name /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-05-30T14:44:44+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: cat /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-05-30T14:45:05+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: cat /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-05-30T14:45:13+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-05-30T14:45:15+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-30T14:45:15+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-05-30T14:45:16+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-05-30T14:45:16+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-05-30T14:46:08+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryName - assumed 'categoryName' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryName - assumed 'categoryName' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-05-30T14:46:50+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryName - assumed 'categoryName' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryName - assumed 'categoryName' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Undefined index: categoryName /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-05-30T14:47:01+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc13c30588651297360d0bed0d6cf2f8.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-05-30T14:47:58+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-05-30T14:49:54+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-05-30T14:50:29+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-05-30T14:51:21+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-05-30T14:51:22+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+ERR: 非法操作:edit
+
+[ 2016-05-30T14:51:31+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+ERR: 非法操作:edit
+
+[ 2016-05-30T14:51:35+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/del/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+ERR: 非法操作:del
+
+[ 2016-05-30T14:56:40+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-05-30T14:56:41+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-30T14:57:04+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-05-30T14:57:08+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-05-30T14:57:30+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-30T14:57:31+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-05-30T14:57:34+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-05-30T14:57:46+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-05-30T14:57:53+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-05-30T14:58:28+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-05-30T14:58:32+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-05-30T14:58:45+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-05-30T14:59:20+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-05-30T14:59:35+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 12 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-05-30T15:02:17+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-05-30T15:02:23+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-05-30T15:04:03+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-05-30T15:04:05+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-05-30T15:04:06+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-05-30T15:04:23+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-05-30T15:04:29+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-05-30T15:04:48+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-05-30T15:04:59+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-05-30T15:05:33+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-05-30T15:06:09+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-05-30T15:06:54+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-05-30T15:07:30+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0057s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-05-30T15:07:59+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-05-30T15:08:28+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-05-30T15:08:46+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+ERR: Think\Model:creat方法不存在！
+
+[ 2016-05-30T15:08:52+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-05-30T15:09:03+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-05-30T15:11:05+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-05-30T15:11:26+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-05-30T15:11:29+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `news_article` SET `catid`='1',`title`='我校顺利开展本科教学审核评估自评工作',`content`='&lt;p&gt; 按照《河北师范大学本科教学工作审核评估评建实施方案》和《河北师范大学迎接教育部本科教学审核评估筹备工作协调会》的相关安排和要求，4月19日至22日，我校聘请了以华中师范大学教务处处长刘建清教授为组长、广西师范大学教务处处长高金岭为副组长的校内外15位专家，开展了本科教学审核评估自评工作。&lt;/p&gt;
+&lt;p&gt;    4月19日晚8点，学校召开本科教学审核评估自评工作专家预备会。专家组组长华中师范大学教务处处长刘建清教授、副组长广西师范大学教务处处长高金岭教授、专家组成员陕西科技大学教务处处长郑恩让教授、南开大学教务处副处长蒋雅文教授、吉林师范大学教务处副处长马春宏研究员及我校段相林、孟令鹏、王跃生、张跃进、张俊才、林广瑞、李孟建、孙鸿、南月省、赵彦民教授出席了预备会。会议由教务处处长阎福玲主持，党委常委、副校长邓明立致欢迎辞，并对我校本科教学工作的基本情况和取得的成效作了简要介绍，教务处副处长徐书景对本次校内自评工作的目的和具体工作安排进行了简要汇报，专家组组长刘建清教授肯定了这次自我评估的重要性，表示将把这次自评工作当作正式的评估来对待，达到一把脉、二检验和三促进的目的，同时通过自评工作深度挖掘河北师范大学本科教学工作的亮点。&lt;/p&gt;
+&lt;p&gt;    在为期三天的自评工作中，15位专家实地考察了图书馆、博物馆、泥河湾考古研究院、大学生创业孵化园等教学相关场所；共听取了13个职能部门、21个学院的工作汇报；听课43门次，查阅毕业论文（设计）323份，抽查试卷86份；召开教师座谈会8场，参与教师66人；召开学生座谈会7场，参与学生70人；深度访谈校领导6人次，访谈相关职能部门负责人16人次。&lt;/p&gt;
+&lt;p&gt;    4月22日下午3点，在会议中心第一会议室召开评估工作意见反馈会。评估专家组全体成员、在校的全体校领导、相关职能部门和各学院负责人出席了会议。会议由党委常委、副校长邓明立主持。&lt;/p&gt;
+&lt;p&gt;    会上，专家组马春宏、蒋雅文、郑恩让、高金岭、刘建清分别代表评估小组对我校本科教学工作评估情况作了意见反馈。专家组组长刘建清教授代表专家组对我校办学过程中取得的成绩给予了充分肯定，他指出河北师范大学办学历史悠久，定位准确，办学效果显著，实行大类招生大类培养模式是师范院校中的破冰之举。同时指出了我校本科教学管理工作中试卷、毕业论文、实验室、课堂教学、迎评宣传等环节中存在的问题，并建议加强部门间的沟通、实事求是对待发现的问题、积极展示特色与亮点、进一步营造浓厚的迎评氛围。&lt;/p&gt;
+&lt;p&gt;    校长蒋春澜发表重要讲话。他首先代表学校对专家组的辛勤劳动和准确把脉表示衷心的感谢。指出对专家们提出的问题，要系统梳理、认真反思，找到改进的方案与办法。在教育部对我校的正式评估工作中，要展示亮点、突出特色、明确方向、细化措施；在今后的本科教学改革工作中，要进一步丰富教学手段、加强教学管理、改革教学方式，不断提高教育教学和人才培养质量，推动学校本科教学工作再上新台阶。&lt;/p&gt;
+&lt;p&gt;    党委书记赵月霞作重要指示。她指出本次审核评估自评工作是对我校本科教学工作的把脉问诊，是对学校全方位的业务审视，是迎接教育部正式评估前的演练。各位专家坦率、真诚，反馈的问题和建议都是金玉良言。她强调，在接下来的迎评工作中，要浓厚迎评促建的氛围、优化制度供给、狠抓落实，借评估的东风，继续深化教育教学改革，奠定本科教学工作的中心地位。&lt;/p&gt;
+&lt;p&gt;    最后，副校长邓明立针对迎评工作提出四点具体要求。一要高度重视、全力投入；二要理清问题，拿出举措；三要责任到人、通力合作；四要立行立改，按时保质。全体师生要以崭新的精神面貌和十足的自信迎接评估专家进校。&lt;/p&gt;',`author`='秘' WHERE `id` = 3 [ RunTime:0.0698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-05-30T15:11:30+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-30T15:11:33+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-05-30T15:13:17+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-05-30T15:13:24+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-05-30T15:13:28+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `news_article` SET `catid`='1',`title`='aaaaaa',`content`='bbbbbbb',`author`='aaaa' WHERE `id` = 10 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-05-30T15:13:29+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-05-30T15:14:18+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-05-30T15:15:17+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-05-30T15:15:18+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-05-30T15:15:20+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-05-30T15:15:22+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/del/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0053s ]
+SQL: DELETE FROM `news_article` WHERE `id` = 10 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-05-30T15:15:27+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2016-05-30T15:15:29+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/del/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0056s ]
+SQL: DELETE FROM `news_article` WHERE `id` = 9 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-05-30T15:15:31+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-05-30T15:15:51+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-05-30T15:37:12+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002772s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-05-30T15:37:30+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/del/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0058s ]
+SQL: DELETE FROM `news_article` WHERE `id` = 9 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-05-30T15:37:54+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-05-30T15:37:55+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-05-30T15:37:55+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-05-30T15:37:55+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-05-30T15:37:56+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T15:37:57+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T15:37:57+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-05-30T15:37:58+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-05-30T15:37:58+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-05-30T15:37:58+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-05-30T15:38:11+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 10 行.
+NOTIC: [8] Undefined variable: categorys /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 16 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 18 行.
+NOTIC: [8] Undefined variable: news /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-05-30T15:38:26+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-05-30T16:26:25+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-05-30T16:26:26+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-05-30T16:26:28+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-05-30T16:26:29+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `news_article` SET `catid`='1',`title`='thinkphp',`content`='tttttttttt',`author`='tp' WHERE `id` = 6 [ RunTime:0.0554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-05-30T16:26:32+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0823s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-05-30T16:26:39+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `news_article` SET `catid`='1',`title`='thinkphp',`content`='tttttttttt',`author`='tpa' WHERE `id` = 6 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-05-30T16:26:40+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-05-30T16:27:08+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-05-30T16:27:10+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-05-30T16:27:10+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-05-30T16:27:11+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-05-30T16:27:14+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `news_article` SET `catid`='1',`title`='thinkphp',`content`='tttttttttt',`author`='tp' WHERE `id` = 6 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-05-30T16:27:15+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-05-30T16:27:29+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-05-30T16:27:30+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `news_category` [ RunTime:0.0574s ]
+SQL: SELECT * FROM `news_category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `news_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+NOTIC: [8] Use of undefined constant categoryname - assumed 'categoryname' /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/Application/Runtime/Cache/Home/dc640664a5ad52ddaa1267f440fdcf80.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-05-30T16:27:33+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Library/WebServer/Documents/2014HTML5Lession/Demo2-13/Demo2-13-4/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `news_article` SET `catid`='1',`title`='thinkphp',`content`='tttttttttt',`author`='tpa' WHERE `id` = 6 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-05-30T16:27:34+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-4/index.php/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `news_article` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `news_article`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+

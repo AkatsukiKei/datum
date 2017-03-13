@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+用户名：<input type="text" id="username" />
+<span id="errorTip"></span>
+<br/>
+密码：<input type="password" id="pwd" />
+<br/>
+确认密码：<input type="password" id="rpd" />
+<span id="errorTip2"></span>
+<br/>
+<button id="send-request-btn">登录</button>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+//文档就绪事件(简写)
+$(function(){
+	$("#username").blur(function() {
+		var username = $(this).val();
+		var data = {
+			"username" : username
+		};
+		$.post("server.php", data, function(res, status) {
+			// console.log(status);
+			if (res === "1") {
+				$("#errorTip").html("可用");
+			}
+			else {
+				$("#errorTip").html("用户名重复");
+			}
+		});
+	});
+	$("#rpd").blur(function(){
+		if ($(this).val() == $("#pwd").val()) {
+			$("#errorTip2").html("密码一致");
+		}
+		else{
+			$("#errorTip2").html("密码不一致");
+		}
+	});
+	$("#send-request-btn").click(function(){
+		var data = {
+			"username" : $("#username").val(),
+			"password" : $("#pwd").val()
+		}
+		// console.log(data);
+		$.post("save.php",data,function(){
+			alert("登陆成功！");
+		});
+	});
+});	
+</script>
+</html>

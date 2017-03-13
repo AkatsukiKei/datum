@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+用户名：<input type="text" id="username" />
+<span id="errorTip"></span>
+<br/>
+密码：<input type="password" />
+<button id="send-request-btn">登录</button>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+//文档就绪事件
+/*
+$(document).ready(function(){
+
+});
+*/
+//文档就绪事件(简写)
+$(function(){
+	$("#username").blur(function() {
+		var username = $(this).val();
+		var data = {
+			"username" : username
+		};
+		$.ajax({
+			url : "Demo2-7-12-server.php",
+			type : "post",
+			success : function(res) {
+				console.log(res);
+				if (res === "1") {
+					$("#errorTip").html("可用");
+				}
+				else {
+					$("#errorTip").html("用户名重复");
+				}
+			},
+			error : function(code, info) {
+				console.log(info);
+			},
+			beforeSend: function() {
+				console.log("123123");
+			},
+			data : data
+		});
+	});
+});	
+</script>
+</html>

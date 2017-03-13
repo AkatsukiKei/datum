@@ -1,0 +1,60 @@
+    	<div class="col-md-10 col-md-offset-2 ">
+    	  <ol class="breadcrumb">
+    	    <li><a href="__MODULE__/Index/index">首页</a></li>
+    	    <li><a href="__MODULE__/Book/lists">图书管理</a></li>
+    	    <li class="active">添加图书</li>
+  	    </ol>
+        <div class="table-responsive ">
+    	   <h3 class="down">添加图书 <small>Books Add</small></h3>
+    	 
+   	  <div class="list-group">
+        <div class="list-group-item">
+          <form role="form" method="post" action="__MODULE__/Book/doAdd">
+            <div class="input-group"> <span class="input-group-addon">图书名称：</span>
+              <input type="text" class="form-control" placeholder="" name="title">
+            </div>
+            <div class="input-group "> <span class="input-group-addon" for="inputWarning1">作<img src="__PUBLIC__/end/images/em.png" alt="" width="24" height="20">者：</span>
+              <input type="text" class="form-control" placeholder="" id="input" name="author">
+            </div>
+            <div class="input-group"> <span class="input-group-addon">出<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">版<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">社：</span>
+              <input type="text" class="form-control" placeholder="" name="publisher">
+            </div>
+            <div class="input-group"> <span class="input-group-addon">出版日期：</span>
+              <input type="text" class="form-control" placeholder="" name="publishdate">
+            </div>
+            <div class="input-group"> <span class="input-group-addon">I<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">S<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">B<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">N<img src="__PUBLIC__/end/images/em.png" alt="" width="3" height="20">：</span>
+              <input type="text" class="form-control" placeholder="" name="isbn">
+            </div>
+            <div class="input-group"> <span class="input-group-addon">I<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">S<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">S<img src="__PUBLIC__/end/images/em.png" alt="" width="6" height="20">N<img src="__PUBLIC__/end/images/em.png" alt="" width="3" height="20">：</span>
+              <input type="text" class="form-control" placeholder="" name="issn">
+            </div>
+            <div class="input-group"> <span class="input-group-addon">创建时间：</span>
+              <input type="text" class="form-control" value="<?php echo date('Y-m-d');?>" readonly name="createtime">
+            </div>
+            <div class="input-group"> <span class="input-group-addon">是否推荐：</span>
+              <span class="form-control">
+                <input type="radio" name="recommend" value="1" />是<img src="__PUBLIC__/end/images/em.png" alt="" width="20" height="20">
+                <input type="radio" name="recommend" value="0" checked="checked" />否
+              </span>
+            </div>
+            <div class="input-group "> <span class="input-group-addon">摘<img src="__PUBLIC__/end/images/em.png" alt="" width="24" height="20">要：</span>
+              <textarea id="editor_id" name="summary" style="width:90%;height:300px;">
+&lt;strong&gt;HTML内容&lt;/strong&gt;
+              </textarea>
+            </div>
+            <div class="input-group">
+              <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="__PUBLIC__/end/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>
+            </div>
+          </form>
+        </div>    	    
+  	  </div>
+  
+    </div>
+</div>
+<script charset="utf-8" src="__PUBLIC__/end/js/editor/kindeditor.js"></script>
+<script charset="utf-8" src="__PUBLIC__/end/js/editor/lang/zh_CN.js"></script>
+<script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>

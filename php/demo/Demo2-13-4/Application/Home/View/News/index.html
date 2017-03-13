@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>新闻管理</h1>
+	<div>
+		<a href="add">添加新闻</a>	
+	</div>
+	<ul>
+	<volist name="news" id="n">
+		<li>{$n.title} <a href="edit/id/{$n.id}">编辑</a> <a href="del/id/{$n.id}">删除</a></li>
+	</volist>
+	</ul>
+</body>
+</html>

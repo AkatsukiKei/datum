@@ -1,0 +1,9 @@
+[ 2016-05-23T15:26:28+08:00 ] ::1 /2014HTML5Lession/Demo2-13/Demo2-13-1/index.php/Admin/News/newslists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+ERR: 无法加载控制器:News
+

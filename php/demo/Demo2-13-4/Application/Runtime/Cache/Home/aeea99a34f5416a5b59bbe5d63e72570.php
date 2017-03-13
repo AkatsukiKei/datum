@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>主页 <a href=''>新闻管理</a>

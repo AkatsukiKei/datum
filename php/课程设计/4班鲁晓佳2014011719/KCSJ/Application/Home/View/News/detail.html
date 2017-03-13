@@ -1,0 +1,90 @@
+﻿    <div class="container">
+
+        <!-- Example row of columns -->
+        <div class="row">
+
+            <div class="col-md-9 article-container">
+            <volist name="news" id="d">
+            <?php
+            $id = $d['id'];
+            welcome($id);
+            ?>
+                <div class="media articlelist-item">
+                    <div class="media-left text-center article-pubdate-viewcount">
+                        <div class="article-pubdate">
+                        <?php
+                        $date = $d["posttime"];
+                        // 2016-07-01
+                        $year = substr($date,0,4);
+                        $month = substr($date,5,2);
+                        $day = substr($date,8);
+                        echo "<span class='pubdate-day text-center'>".$day."</span><span class='pubdate-year-mon text-center'>".$year."年".$month."月</span>";
+                        ?>
+                        </div>
+
+                        <div class="article-viewcount">
+                            <span class="viewcount-text"><i class="fa fa-bar-chart"></i> 浏览次数</span>
+                            <span class="viewcount-num badge">{$d.welcome}</span>
+                        </div>
+                    </div>
+
+                    <div class="media-body">
+                         <h4 class="article-heading">{$d.title}</h4>
+
+                        <div class="article-content-full">
+                            {$d.content}
+                        </div>
+                        
+                    </div>  
+                                       
+                </div> 
+                <div class="col-md-6 article-pager article-prev">
+                    <!-- 如无前一篇则可不显示下面内容 -->
+                    <span class="article-arrow"><i class="fa fa-chevron-left"></i> 上一篇</span>
+                    <span class="article-link">
+                        <a href="__MODULE__/News/detail/id/<?php proId($id);?>"><?php proTitle($id);?></a>
+                    </span>
+                    <!--  -->
+                </div>
+                <div class="col-md-6 article-pager article-next">
+                    <!-- 如无后一篇则可不显示下面内容 -->
+                    <span class="article-arrow">下一篇 <i class="fa fa-chevron-right"></i></span>
+                    <span class="article-link">
+                        <a href="__MODULE__/News/detail/id/<?php nextId($id);?>"><?php nextTitle($id);?></a>
+                    </span>
+                    <!--  -->
+                </div>
+            </volist>
+            </div>
+
+            <div class="col-md-3 sidebar">
+
+                <h2 class="section-title-md"><i class="fa fa-search"></i> 图书查询</h2>
+
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="书名/作者/标签">
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
+                  </span>
+                </div>
+
+                <hr />
+
+                <ul class="list-group" id="article-archives">
+                  <li class="list-group-item active"><i class="fa fa-file-text-o"></i> 以前的新闻</li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年12月</a><span class="badge">14</span></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年11月</a><span class="badge">8</span></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年10月</a><span class="badge">3</span></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年9月</a><span class="badge">1</span></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年8月</a><span class="badge">11</span></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年7月</a><span class="badge">23</span></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年6月</a><span class="badge">4</span></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> 2014年5月</a><span class="badge">9</span></li>
+                  <li class="list-group-item footer text-center"><a href="#" target="_blank">更早新闻 <i class="fa fa-arrow-circle-right"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div><!-- /container -->

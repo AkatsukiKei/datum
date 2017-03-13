@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js读写cookie</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+//读取cookie
+console.log(document.cookie);
+var cookieString = document.cookie;
+var cookie = cookieString.split(";");
+var username = cookie[0].split("=");
+console.log(username);
+
+//写入cookie
+document.cookie = "jsCookie=ok";
+console.log(document.cookie);
+</script>
+</html>

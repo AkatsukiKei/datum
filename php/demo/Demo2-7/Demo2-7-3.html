@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<input type="text" id="filename" value="" />
+<button id="send-request-btn">发送请求</button>
+</body>
+<script type="text/javascript">
+function getXhr() {
+	if (window.XMLHttpRequest) {
+		//创建XMLHttpRequest对象
+		return new XMLHttpRequest();
+	}
+	else {
+		//兼容IE6的XMLHttpRequest创建方法
+		return new ActiveXObject("Microsoft.XMLHTTP");
+	}	
+}
+
+document.getElementById('send-request-btn').onclick = function() {
+	var xhr = getXhr();
+	var filename = document.getElementById('filename').value;
+	//指定请求方法、请求地址、是否异步请求
+	xhr.open('get', 'Demo2-7-3-server.php?filename=' + filename, true);
+	//发送请求
+	xhr.send();
+}
+</script>
+</html>

@@ -1,0 +1,68 @@
+数据库规划：
+
+新闻表 news
+id：int 主键（自增长identify）
+标题title：varchar(50)
+内容content：text
+发表时间posttime：datetime
+浏览量welcome：int
+
+图书表 books
+id：int 主键自增长
+标题title：varchar(50)
+作者author：varchar(50)
+出版日期publishdate：datetime
+出版社publisher：varchar(50)
+ISBN：varchar(50)
+ISSN：varchar(50)
+摘要summary：text
+添加时间createtime：datetime
+是否推荐recommend：int 1,0
+
+标签表 tags
+id：int 主键自增长
+标签名称tagname：varchar(20)
+使用次数times：int
+添加时间createtime：datetime
+
+图书标签关系表 books_tags_relation（在数据库表中不建立外键关系）
+两个id为联合主键
+图书id bookid：int
+标签id tagid：int
+权重weight：int
+
+关键字表 keywords
+id：int 主键自增长
+关键字名称keysname：varchar(20)
+使用次数times：int
+添加时间createtime：datetime
+
+管理员用户表 admin_users
+id：int 主键自增长
+用户名username：varchar(10)
+真实姓名realname：varchar(10)
+手机号tel：int
+邮箱email：varchar(50)
+注册时间regtime：datetime
+
+
+
+
+模块规划：
+
+Home模块（前台）：
+主页IndexController包含的页面：主页index、关于我们aboutus、联系我们contact
+新闻NewsController包含的页面：新闻列表页list、新闻详情页detail、新闻归档列表archivelist
+图书BookController包含的页面：关联词搜索结果页books_in_keyword、标签搜索结果页books_in_tag、图书详情页bookdetail（1、必须要传图书的id，根据id查询内容 2、新进图书，这部分会被共用）、关联标签relation_tag（不管是赞了标签，还是输入标签，都把标签传入数据库，查询是否有这个标签，如果有就+1，如果没有就创建）
+
+Admin模块（后台）：
+后台首页IndexController
+管理员管理AdminController：增删改查、修改密码
+新闻管理NewsController：增删改查
+图书管理BookController：增删改查
+标签管理TagController：增删改查、删除标签关联del_relation、增加标签关联add_relation
+关键词管理KeywordController：增删改查
+
+
+
+通常先做后台

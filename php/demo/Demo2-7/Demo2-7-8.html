@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+var person1 = {
+	name: "张三" ,
+	weight: 180,
+	height: 178
+}
+var person2 = {
+	name: "李四",
+	weight: 130,
+	height: 180
+}
+
+var allPerson = [person1, person2];
+
+var allCitys = [
+	{id:5, name: '石家庄', childrens:["正定", "新乐", "平山"]},
+	{id:6, name: '唐山'},
+	{id:7, name: '邯郸'},
+	{id:8, name: '保定'}
+];
+console.log(allCitys);
+
+var getCity = '[{"id":5,"name":"\u77f3\u5bb6\u5e84"},{"id":6,"name":"\u5510\u5c71"}]';
+var citys = JSON.parse(getCity);
+console.log(citys);
+
+var cityString = JSON.stringify(allCitys)
+console.log(cityString);
+</script>
+</html>

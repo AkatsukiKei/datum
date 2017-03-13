@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+用户名：<input type="text" id="username" />
+<span id="errorTip"></span>
+<br/>
+密码：<input type="password" />
+<button id="send-request-btn">登录</button>
+</body>
+<script type="text/javascript">
+function getXhr() {
+	if (window.XMLHttpRequest) {
+		return new XMLHttpRequest();
+	}
+	else {
+		return new ActiveXObject("Microsoft.XMLHTTP");
+	}
+}
+document.getElementById("username").onblur = function() {
+	var xhr = getXhr();
+	var loginname = document.getElementById("username").value;
+
+	xhr.open("post", "Demo2-7-6-server.php", true);
+
+	var data = "username=" + loginname;
+	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhr.onreadystatechange = function() {
+		if (xhr.readyState == 4) {
+			var message = "";
+			if (xhr.responseText == "1") {
+				message = "可用！";
+			}
+			else {
+				message = "用户名已被注册！";
+			}
+			document.getElementById('errorTip').innerHTML = message;
+		}
+	}
+	xhr.send(data);
+}
+</script>
+</html>

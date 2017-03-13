@@ -1,0 +1,37 @@
+    	<div class="col-md-10 col-md-offset-2 ">
+    	  <ol class="breadcrumb">
+    	    <li><a href="__MODULE__/Index/index">首页</a></li>
+    	    <li><a href="__MODULE__/Admin/lists">帐户管理</a></li>
+    	    <li class="active">个人密码修改</li>
+  	    </ol>
+    	  <div class="table-responsive ">
+    	    <h3>个人密码修改 <small>Password Modify</small></h3>
+    	    <div class="list-group ">
+    	      <div class="list-group-item">
+    	        <form role="form" method="post" action="__MODULE__/Admin/doRepwd">
+              <volist name="admin_users" id="d">
+    	          <div class="input-group"> <span class="input-group-addon">用户名：</span>
+    	            <input type="text" class="form-control" value="{$d.username}" readonly name="username">
+  	            </div>
+    	          <div class="input-group "> <span class="input-group-addon" for="inputWarning1">真实姓名：</span>
+    	            <input type="text" class="form-control" value="{$d.realname}" id="input" readonly name="realname">
+  	            </div>
+    	          <div class="input-group"> <span class="input-group-addon">旧密码：</span>
+    	            <input type="password" class="form-control" placeholder="" name="oldpwd">
+  	            </div>
+    	          <div class="input-group"> <span class="input-group-addon">新密码：</span>
+    	            <input type="password" class="form-control" placeholder="" name="password">
+  	            </div>
+    	          <div class="input-group"> <span class="input-group-addon">确认新密码：</span>
+    	            <input type="password" class="form-control" placeholder="" name="repwd">
+  	            </div>
+                <input type="hidden" name="id" value="{$d.id}" />
+    	          <div class="input-group">
+    	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="__PUBLIC__/end/images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>
+  	            </div>
+                </volist>
+  	          </form>
+  	        </div>
+  	      </div>
+  	    </div>
+  	  </div>

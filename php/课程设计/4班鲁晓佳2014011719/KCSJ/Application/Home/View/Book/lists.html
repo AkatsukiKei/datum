@@ -1,0 +1,112 @@
+﻿    <div class="container">
+
+        <!-- Example row of columns -->
+        <div class="row">
+
+            <div class="col-md-9">
+
+                <div class="page-header">
+                  <h1>图书列表标题</h1>
+                </div>
+                <volist name="books" id="d">
+                <div class="media booklist-item first">
+                    <a class="media-left" href="__MODULE__/Book/detail/id/{$d.id}">
+                        <img class="book-thumb" src="http://pku.summon.serialssolutions.com/2.0.0/image/custom?url=http%3A%2F%2F202.112.150.126%2Findex.php%3Fclient%3Dpku%26isbn%3D9781603842020%2Fcover&size=small" />
+                    </a>
+                    <div class="media-body">
+                        <a href="__MODULE__/Book/detail/id/{$d.id}" target="_blank" class="book-title"><h4 class="media-heading">{$d.title}</h4></a>
+
+                        <p class="book-tags">
+                            <span class="label label-primary"><i class="fa fa-tags"></i> 标签</span>                            
+                            <a href="#" class="label label-info" role="button">标签1</a>
+                            <a href="#" class="label label-info" role="button">标签22</a>
+                            <a href="#" class="label label-info" role="button">标签333</a>
+                        </p>
+
+                        <p>{$d.summary|msubstr=0,150,'utf-8',true}<a class="label label-success book-read-more" href="__MODULE__/Book/detail/id/{$d.id}"><i class="fa fa-plus"></i> 更多信息</a></p>
+                    </div>               
+                </div>
+                </volist>
+
+                <nav class="text-center">
+                  <ul class="pagination">
+                    <li class="prev"><a href="#">前一页 &laquo;</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#">10</a></li>
+                    <li class="next"><a href="#">&raquo; 后一页</a></li>
+                  </ul>
+                </nav>
+
+            </div>
+
+            <div class="col-md-3 sidebar">
+
+                    <h2 class="section-title-md"><i class="fa fa-gears"></i> 查询选项</h2>
+
+                    <div class="input-group input-grp-custom">
+                        <span class="input-group-addon">书名</span>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="input-group input-grp-custom">
+                        <span class="input-group-addon">作者</span>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="input-group input-grp-custom">
+                        <span class="input-group-addon">出版社</span>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="input-group input-grp-custom">
+                        <span class="input-group-addon">ISBN/ISSN</span>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="input-group input-grp-custom">
+                        <span class="input-group-addon">标签</span>
+                        <input type="text" class="form-control">
+                    </div>
+                
+                    <button type="button" class="btn btn-primary"><i class="fa fa-search"></i> 查询</button>
+                    <button type="button" class="btn btn-default"><i class="fa fa-remove"></i> 取消重填</button>
+
+                <hr />
+
+                <div class="panel panel-default" id="tags-mostused">
+                  <div class="panel-heading"><i class="fa fa-tags"></i> 常用标签</div>
+                  <div class="panel-body">
+                        <a href="#" class="label label-default" role="button">标签1</a>
+                        <a href="#" class="label label-default" role="button">标签22</a>
+                        <a href="#" class="label label-default" role="button">标签333</a>
+                        <a href="#" class="label label-default" role="button">标签1</a>
+                        <a href="#" class="label label-default" role="button">标签22</a>
+                        <a href="#" class="label label-default" role="button">标签333</a>
+                  </div>
+                </div>
+
+                <ul class="list-group" id="keywords-mostused">
+                  <li class="list-group-item active"><i class="fa fa-star"></i> 使用最多的关键字</li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Dapibus ac facilisis </a></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Morbi leo risus</a></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Porta ac consectetur ac</a></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Vestibulum at eros</a></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Dapibus ac facilisis </a></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Morbi leo risus</a></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Porta ac consectetur ac</a></li>
+                  <li class="list-group-item"><a href="#" target="_blank"><i class="fa fa-caret-right"></i> Vestibulum at eros</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div><!-- /container -->
