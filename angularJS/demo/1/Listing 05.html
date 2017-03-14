@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>第一个AngularJS程序</title>
+    <script src="angular.js"></script>
+    <script>
+        angular.module("myapp", [])
+                .directive("hello", function() {
+                    return {
+                        restrict: 'E',
+                        template: '<div>Hi everyone!</div>',
+                        replace: true
+                    }
+                });
+    </script>
+</head>
+<body ng-app="myapp">
+<hello></hello>
+</body>
+</html>

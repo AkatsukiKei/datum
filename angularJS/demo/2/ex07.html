@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html  ng-app="Md1">
+<head>
+    <meta charset="UTF-8">
+    <title> ng-repeat </title>
+    <script src="angular.js"></script>
+    <style>
+        th,td{
+            width:200px;height: 50px;border:1px solid #333;
+        }
+    </style>
+    <script>
+        var app=angular.module('Md1',['ng']);
+        app.controller('mc1',function($scope){
+            $scope.people=[
+                {'name':'TOM','age':17,'hobby':'singing'},
+                {'name':'JIM','age':18,'hobby':'swimming'},
+                {'name':'MARRY','age':15,'hobby':'dancing'}
+            ]
+        })
+    </script>
+</head>
+<body >
+<div ng-controller="mc1">
+    <table>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>爱好</th>
+        </tr>
+        <tr ng-repeat="i in people">
+            <td>{{i.name}}</td>
+            <td>{{i.age}}</td>
+            <td>{{i.hobby}}</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

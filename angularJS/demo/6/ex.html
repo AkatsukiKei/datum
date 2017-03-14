@@ -1,0 +1,23 @@
+<html ng-app="exampleApp">
+<head>
+    <title>准备项目</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+            .controller("defaultCtrl", function ($scope) {
+                $scope.products = [
+                    { name: "苹果", price: 1.20,},
+                    { name: "香蕉", price: 2.42,},
+                    { name: "梨", price: 2.02,},
+                ];
+            });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <a ng-repeat="p in products | orderBy:'-price'">
+        {{p.name}}
+    </a>
+</body>
+</html>

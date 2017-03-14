@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html  ng-app="Md1">
+<head>
+    <meta charset="UTF-8">
+    <title> ng-repeat </title>
+    <script src="angular.js"></script>
+    <script>
+        var app=angular.module('Md1',['ng']);
+        app.controller('mc1',function($scope){
+
+        })
+    </script>
+</head>
+<body >
+<div ng-controller="mc1">
+    <ul ng-init="data=[10,20,30,40,50]">
+        <li ng-repeat="x in data">编号{{$index+1}}：{{x}},{{$first}},{{$middle}},{{$last}}</li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="angular.js"></script>
+</head>
+<body ng-app="">
+
+<input ng-keydown="count = count + 1" ng-init="count=0" />
+<h1>{{count}}</h1>
+
+<p>实例中 "count" 变量记录了在文本框中按下键盘按键的次数。</p>
+<input onkeydown="alert('按键');" ng-keydown="count1 = count1 + 1" ng-init="count1=0" />
+<h1>{{count1}}</h1>
+
+</body>
+</html>

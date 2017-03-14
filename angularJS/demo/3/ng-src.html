@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller("myCtrl", function($scope) {
+
+        });
+    </script>
+</head>
+<body ng-controller="myCtrl">
+    <img src="pic.jpg" alt="">
+    <img ng-src="pic.jpg" alt="">
+    <span ng-init="pic='pic.jpg'">
+        <img ng-src="{{pic}}" alt="">
+    </span>
+</body>
+</html>
+

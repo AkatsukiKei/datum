@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html  ng-app="md1">
+<head>
+    <meta charset="UTF-8">
+    <title>数据绑定</title>
+    <script src="angular.js"></script>
+    <script>
+        var app=angular.module('md1',['ng']);
+        app.controller('mc1',function($scope){
+        })
+    </script>
+</head>
+<body ng-controller="mc1">
+<div ng-init="str='Hello World!'">
+<p ng-bind='str'></p>
+</div>
+<div ng-bind-template="First:{{5+5}},Second:{{3>3}}">
+</div>
+</body>
+</html>

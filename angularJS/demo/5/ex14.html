@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>使用多控制器</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller("myCtrl1", function ($scope) {
+            $scope.dataValue = "luxiaojia";
+            $scope.reverseText = function () {
+                $scope.dataValue = $scope.dataValue.split("").reverse().join("");
+            }
+        });
+        app.controller("myCtrl2", function ($scope) {
+            $scope.dataValue = "hello, luxiaojia";
+            $scope.changeCase = function () {
+                $scope.dataValue = $scope.dataValue.toUpperCase();
+            };
+        });
+    </script>
+</head>
+<body>
+    <div class="well" ng-controller="myCtrl1">
+        <h4>First Controller</h4>
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button" 
+                        ng-click="reverseText()">Reverse</button>
+            </span>
+            <input class="form-control" ng-model="dataValue">
+        </div>
+    </div>
+
+    <div class="well" ng-controller="myCtrl2">
+        <h4>Second Controller</h4>
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button"
+                        ng-click="changeCase()">
+                    Case
+                </button>
+            </span>
+            <input class="form-control" ng-model="dataValue">
+        </div>
+    </div>    
+</body>
+</html>

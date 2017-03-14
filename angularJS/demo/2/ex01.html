@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  ng-app="md1">
+<head>
+    <meta charset="UTF-8">
+    <title>表达式-对象、数组</title>
+    <script src="angular.js"></script>
+    <script>
+        var app=angular.module('md1',['ng']);
+        app.controller('mc1',function($scope){
+            $scope.man1={name:'tom1',age:20};
+            $scope.arr=[10,20,30];
+            $scope.a=10;
+            $scope.b=20;
+        })
+    </script>
+</head>
+<body ng-controller="mc1">
+<div ng-init="man={name:'tom',age:17}">
+    {{man.name}}
+</div>
+<div>
+    {{man1.name}}
+</div>
+<div>
+    {{arr[0]+','+arr[1]+','+arr[2]}}
+</div>
+<div>
+    {{a+b}}
+</div>
+</body>
+</html>

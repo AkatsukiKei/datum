@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html  ng-app="Md1">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>表达式</title>
+    <script src="angular.js"></script>
+    <script>
+        angular.module('Md1',[]).controller('Mc1',function($scope){
+            //
+        })
+    </script>
+</head>
+<body >
+<div class="container" >
+   <!-- <p>{{1111111}}</p>
+    <p>{{Hello World!}}</p>--><!-- 不是表达式 -->
+    <p>{{3+2}}</p>
+    <p>{{3-2}}</p>
+    <hr/>
+    <p>{{3>4}}</p>
+    <hr/>
+    {{3>4 || 3>2}}
+    <hr/>
+    <span></span>
+    <p>AGE：{{20>18?"成年":"未成年"}}</p>
+    <p>A:{{a=5}}</p>
+    <p>{{a}}</p>
+    <p>{{b=10}}</p>
+    <p>{{a+b}}</p>
+</div>
+</body>
+</html>

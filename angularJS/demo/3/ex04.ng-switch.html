@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller("myCtrl", function($scope) {
+
+        });
+    </script>
+</head>
+<body ng-controller="myCtrl">
+我最喜欢做的事情
+<select ng-model="like">
+    <option value="运动">运动</option>
+    <option value="读书">读书</option>
+    <option value="旅游">旅游</option>
+</select>
+
+<hr>
+<div ng-switch="like">
+    <div ng-switch-when="运动">
+        <h1>运动</h1>
+        <p>游泳</p>
+        <p>篮球</p>
+        <p>足球</p>
+    </div>
+    <div ng-switch-when="读书">
+        <h1>读书</h1>
+        <p>宝葫芦的秘密</p>
+        <p>我的成长日记</p>
+        <p>昆虫记</p>
+    </div>
+    <div ng-switch-when="旅游">
+        <h1>旅游</h1>
+        <p>故宫</p>
+        <p>园博园</p>
+        <p>九寨沟</p>
+    </div>
+    <div ng-switch-default>
+        <h1>默认情况</h1>
+        <p>选择不同选项显示对应的值。</p>
+    </div>
+</div>
+<hr>
+
+<p> ng-switch 指令根据当前的值显示或隐藏对应部分。</p>
+</body>
+</html>
+

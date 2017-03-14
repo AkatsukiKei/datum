@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html  ng-app="Md1">
+<head>
+    <meta charset="UTF-8">
+    <title> ng-repeat </title>
+    <script src="angular.js"></script>
+    <script>
+        var app=angular.module('Md1',['ng']);
+        app.controller('mc1',function($scope){
+            $scope.arr=['aa','bb','cc','dd','cc'];
+            $scope.obj=[
+                {'name':'same'},
+                {'name':'same'},
+                {'name':'same'},
+                {'name':'same'},
+                {'name':'same'}]
+        })
+    </script>
+</head>
+<body >
+<div ng-controller="mc1">
+    输出：
+    <ol>
+        <li ng-repeat="x in arr">
+           <p>{{x}}</p>
+        </li>
+    </ol>
+    <hr>
+    <ol>
+        <li ng-repeat="x in arr track by $index">
+            <p>{{x}}</p>
+        </li>
+    </ol>
+    <hr>
+    <ol>
+        <li ng-repeat="y in obj" ng-switch on="y.name">
+            <p ng-switch-when="same">{{y}}</p>
+        </li>
+    </ol>
+</div>
+
+</body>
+</html>

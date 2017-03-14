@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="angular.js"></script>
+  <script>
+    var app = angular.module("myApp", []);
+    app.controller("myCtrl", function($scope) {
+      $scope.myObj = {
+        "color" : "white",
+        "background-color" : "coral",
+        "font-size" : "60px",
+        "padding" : "50px"
+      }
+    });
+  </script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<h1 ng-style="myObj">添加样式</h1>
+</body>
+</html>
+</body>
+</html>

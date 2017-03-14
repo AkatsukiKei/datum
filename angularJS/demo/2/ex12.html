@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html  ng-app="Md1">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>包含文件</title>
+    <style>
+        th,td{
+            width:200px;height: 50px;border:1px solid #333;
+        }
+    </style>
+    <script src="angular.js"></script>
+    <script>
+        angular.module('Md1',[]).controller('mc1',function($scope){
+            $scope.table='table.html';
+            $scope.people=[
+                {'name':'TOM','age':17,'hobby':'singing'},
+                {'name':'JIM','age':18,'hobby':'swimming'},
+                {'name':'MARRY','age':15,'hobby':'dancing'}
+            ]
+        })
+    </script>
+</head>
+<body >
+<div ng-controller="mc1">
+    方法一：
+    <div ng-include="table"></div>
+    方法二：<br>
+    <ng-include src="table"></ng-include>
+</div>
+</body>
+</html>
