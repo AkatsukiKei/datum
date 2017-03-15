@@ -1,0 +1,48 @@
+<html ng-app="exampleApp">
+<head>
+    <title>使用函数做为模板</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script type="text/template" id="listTemplate">
+        <ul>
+            <li ng-repeat="item in data">{{item.price | currency}}</li>
+        </ul>
+    </script>
+    <script>
+        angular.module("exampleApp", [])
+            .directive("unorderedList", function () {
+                return {
+                    link: function (scope, element, attrs) {
+                        scope.data = scope[attrs["unorderedList"]];
+                    },
+                    restrict: "A",
+                    template: function () {
+                        // querySelector() 方法仅仅返回匹配指定选择器的第一个元素。
+                        // 如果你需要返回所有的元素，请使用 querySelectorAll() 方法替代。
+                        var obj=document.querySelector("#listTemplate");
+                        return angular.element(obj).html();
+                    }
+                }
+            }).controller("defaultCtrl", function ($scope) {
+                $scope.products = [
+                    { name: "Apples", category: "Fruit", price: 1.20, expiry: 10 },
+                    { name: "Bananas", category: "Fruit", price: 2.42, expiry: 7 },
+                    { name: "Pears", category: "Fruit", price: 2.02, expiry: 6 }
+                ];
+            })
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Products</h3> 
+        </div>
+        <div class="panel-body">
+            <div unordered-list="products">
+                This is where the list will go
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

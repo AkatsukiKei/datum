@@ -1,0 +1,34 @@
+<html ng-app="exampleApp">
+<head>
+    <title>定义指令如何被使用</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+                .controller("defaultCtrl", function ($scope) {
+                    $scope.content='今天天气真不错哦！';
+                })
+                .directive('sayHello',function(){
+                    return{
+                        restrict:'M',
+                        template:'<div style="color:#f00;">hello!<b>{{cont}}</b></div>',
+                        replace:true,
+                        scope:{cont:'=speak'}
+                    }
+                });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+restrict 值可以是以下几种:<br>
+<say-hello speak="content">E 作为元素名使用</say-hello>
+<div say-hello>A 作为属性使用</div>
+<div class="say-hello">C 作为类名使用</div>
+<!-- directive: say-hello -->
+<!--M 作为注释使用-->
+<!--
+注意： 我们需要在该实例添加 replace 属性， 否则评论是不可见的。<br>
+注意： 你必须设置 restrict 的值为 "M" 才能通过注释来调用指令。
+-->
+</body>
+</html>

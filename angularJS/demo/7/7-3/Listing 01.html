@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>transclude，使用嵌入包含</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script type="text/ng-template" id="template">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>这是新的内容</h4>
+            </div>
+            <div class="panel-body" ng-transclude>
+                原来的内容被包含在这里！
+            </div>
+        </div>
+    </script>
+    <script type="text/javascript">
+        angular.module("exampleApp", [])
+            .directive("panel", function () {
+                return {
+                    link: function (scope, element, attrs) {
+                        scope.dataSource = "directive";
+                    },
+                    restrict: "E",
+                    scope: true,
+                    template: function () {
+                        return angular.element(
+                            document.querySelector("#template")).html();
+                    },
+                    transclude:true
+                }
+            })
+            .controller("defaultCtrl", function ($scope) {
+                $scope.dataSource = "controller";
+            });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <panel>
+        数据来自: {{dataSource}}
+    </panel>
+</body>
+</html>

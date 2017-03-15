@@ -1,0 +1,24 @@
+<html ng-app="exampleApp">
+<head>
+    <title>引导案例</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+            .controller("defaultCtrl", function ($scope) {
+                //
+            })
+            .directive('say',function(){
+                var json={
+                    restrict:'E',//做为元素名使用
+                    template:'<div style="color:#f00;">hello!</div>'//模板
+                };
+                return json;
+            });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+<say>你好</say>
+</body>
+</html>

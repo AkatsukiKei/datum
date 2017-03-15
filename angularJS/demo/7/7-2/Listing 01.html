@@ -1,0 +1,28 @@
+<html ng-app="exampleApp">
+<head>
+    <title>准备项目</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+            .controller("Ctrl0", function ($scope) {
+                $scope.man = [
+                    { name: "tom", age:10 },
+                    { name: "lily", age:7 },
+                    { name: "james", age: 6 }
+                ];
+            })
+            .directive("listName", function () {
+                return function (scope, element, attrs) {
+                    console.log(scope);
+                    console.log(element);
+                    console.log(attrs);
+                }
+            })
+    </script>
+</head>
+<body ng-controller="Ctrl0">
+<div list-name></div>
+</body>
+</html>

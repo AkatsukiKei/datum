@@ -1,0 +1,44 @@
+<html ng-app="exampleApp">
+<head>
+    <title>添加一个支持的属性</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+            .directive("unorderedList", function () {
+                return function (scope, element, attrs) {
+                    var data = scope[attrs["unorderedList"]];
+                    //通过链接函数的attrs参数获得list-property属性的值
+                    //使用listProperty属性值从每个数据对象中获取值
+                    var propertyName = attrs["listProperty"];
+                    if (angular.isArray(data)) {
+                        var listElem = angular.element("<ul>");
+                        element.append(listElem);
+                        for (var i = 0; i < data.length; i++) {
+                            var li_element=angular.element('<li>');
+                            listElem.append(li_element.text(data[i][propertyName]));
+                        }
+                    }
+                }
+            })
+            .controller("defaultCtrl", function ($scope) {
+                $scope.products = [
+                    { name: "苹果", category: "水果", price: 1.20, expiry: 10 },
+                    { name: "香蕉", category: "水果", price: 2.42, expiry: 7 },
+                    { name: "梨", category: "水果", price: 2.02, expiry: 6 }
+                ];
+            })
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Products</h3>
+        </div>
+        <div class="panel-body">
+            <div unordered-list="products" list-property="name"></div>
+        </div>
+    </div>
+</body>
+</html>

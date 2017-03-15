@@ -1,0 +1,26 @@
+<html ng-app="exampleApp">
+<head>
+    <title>应用自定义指令</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+                .controller("defaultCtrl", function ($scope) {
+                    $scope.content='今天天气真不错哦！';
+                })
+                .directive('unorderedList',function(){
+                    return{
+                        restrict:'A',
+                        template:'<div>hello!</div>'
+                    }
+                });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+正确：<div unordered-list>{{content}}</div>
+正确：<div unordered-list="products">{{content}}</div>
+不建议：<div unordered-List="products">{{content}}</div>
+错误：<div unorderedList="products">{{content}}</div>
+</body>
+</html>

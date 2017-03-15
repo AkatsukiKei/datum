@@ -1,0 +1,12 @@
+﻿<p></p>这是来自tableTemplate.html文档的内容：</p>
+<table border="1">
+    <thead>
+        <tr><th>Name</th><th>Price</th></tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in data">
+            <td>{{item.name}}</td>
+            <td>{{item.price | currency}}</td>
+        </tr>
+    </tbody>
+</table>
