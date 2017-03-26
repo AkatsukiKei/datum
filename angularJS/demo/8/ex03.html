@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>原型继承</title>
+    <script>
+        function AA(){
+            this.user='lily';
+            this.fn=function(msg){
+                console.log(this.tt+'haha:'+msg);
+            }
+        }
+        var BB=function(){};
+        BB.property=new AA();
+        BB.property.tt='bb';
+        BB.property.fn(123);
+        var CC=function(){};
+        CC.property=new AA();
+        CC.property.tt='cc';
+        CC.property.fn(456);
+    </script>
+</head>
+<body>
+</body>
+</html>

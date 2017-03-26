@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>log</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $log) {
+            $scope.setName = function(){
+                $scope.yourname=$scope.fname+" "+$scope.lname;
+                $log.info("info-------------"+$scope.yourname);
+                $log.log("log-------------"+$scope.yourname);
+                $log.error("error-------------"+$scope.yourname);
+                $log.warn("warn-------------"+$scope.yourname);
+
+            }
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+        姓：<input type="text" ng-model="fname">
+        名：<input type="text" ng-model="lname">
+        <button ng-click="setName()">设置姓名</button>
+    </div>
+</body>
+</html>

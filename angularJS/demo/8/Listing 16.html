@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>访问window对象</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $window) {
+            $scope.displayAlert = function(msg) {
+                $window.alert(msg);
+            }
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl" class="well">
+    <button class="btn btn-primary" ng-click="displayAlert('Clicked!')">Click Me</button>
+</body>
+</html>

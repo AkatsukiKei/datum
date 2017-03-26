@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Services and Modules</title>
+    <script src="angular.js"></script>
+    <script src="Listing 04.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", ["custom"])
+        .controller("defaultCtrl", function ($scope) {
+            $scope.data = {
+                cities: ["伦敦", "约纽", "巴黎"],
+                clicks: 0
+            };
+            $scope.$watch('data.clicks', function (newVal) {
+                //监视数据data.clicks，当变化时将data.clicks的值传递给newVal
+                console.log("单击的次数: " + newVal);
+            });
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+        <div class="btn-group" tri-button counter="data.clicks" source="data.cities">
+            <button class="btn btn-default" ng-repeat="city in data.cities">
+                {{city}}
+            </button>
+        </div>
+        <h5>单击的次数: {{data.clicks}}</h5>
+    </div>
+</body>
+</html>

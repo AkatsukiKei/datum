@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>模块依赖</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module('mod1', [])
+            .controller('cont1', function ($scope){
+                $scope.a='mod1+';
+            })
+            .filter('myFilter', function (){
+                return function (input){
+                    return input+20;
+                };
+            });
+        angular.module('mod2', [])
+            .controller('cont2', function ($scope){
+                        $scope.b='mod2+';
+            })
+            .filter('myFilter', function (){
+                return function (input){
+                    return input+'abc';
+                };
+            });
+        angular.module('mod3', ['mod2', 'mod1']);
+        angular.module('mod4', ['mod1', 'mod2']);
+    </script>
+</head>
+<body ng-app="mod3">
+    <div ng-controller="cont1">
+        {{a|myFilter}}
+    </div>
+    <div ng-controller="cont2">
+        {{b|myFilter}}
+    </div>
+</body>
+</html>

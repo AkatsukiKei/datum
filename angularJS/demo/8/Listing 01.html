@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>使用模块</title>
+    <meta charset="UTF-8">
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope) {
+            $scope.data = {
+                cities: ["伦敦", "约纽", "巴黎"],
+                clicks: 0
+            };
+            $scope.$watch('data.clicks', function (newVal) {
+                //监视数据data.clicks，当变化时将data.clicks的值传递给newVal
+                console.log("单击的次数: " + newVal);
+            });
+        })
+        .directive("triButton", function () {
+            return {
+                scope: { counter: "=counter" },
+                link: function (scope, element, attrs) {
+                    element.on("click", function (event) {
+                        //on() 方法在被选元素及子元素上添加一个或多个事件处理程序
+                        console.log("单击的按钮是: " + event.target.innerText);
+                        //target是jQuery 1.3 新增属性，返回最初触发事件的DOM元素
+                        scope.$apply(function () {
+                            //scope.$apply将代码添加到执行队行
+                            scope.counter++;
+                        });
+                    });
+                }
+            }
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+        <div class="btn-group" tri-button counter="data.clicks">
+            <button class="btn btn-default" ng-repeat="city in data.cities">
+                {{city}}
+            </button>
+        </div>
+        <h5>单击的次数: {{data.clicks}}</h5>
+    </div>
+</body>
+</html>
