@@ -66,3 +66,48 @@ function compare(value1, value2){
     return value2 - value1;
 }
 ```
+## 操作方法
+concat( )可以基于当前数组中的所有项创建一个新数组
+``` javascript
+var colors = ["red", "green", "blue"];
+console.log(colors.concat("yellow", ["black", "brown"]));
+// ["red", "green", "blue", "yellow", "black", "brown"]
+```
+slice( )能够基于当前数组中的一或多个项创建一个新数组  
+如果有一个参数，返回从指定位置开始到数组末尾的所有项；  
+如果有两个参数，返回起始和结束位置之间的项，__但不包括结束位置的项。__
+``` javascript
+var colors = ["red", "green", "blue", "yellow", "black", "brown"];
+console.log(colors.slice(1));      // ["green", "blue", "yellow", "black", "brown"]
+console.log(colors.slice(1,4));    // ["green", "blue", "yellow"]
+```
+splice( )有很多用法，主要用途是向数组的中部插入项，返回从原始数组中删除的项组成的数组（没有删除返回空数组）  
+使用方法有3种：  
+**删除** 可以删除任意数量的项，参数为：要删除的第一项的位置，要删除的项数  
+**插入** 可以向指定位置插入任意数量的项，参数为：起始位置，0（要删除的项数），要插入的项  
+**替换** 可以向指定位置插入任意数量的项，且同时删除任意数量的项，参数为：起始位置，要删除的项数，要插入的项（插入的项数不必与删除的项数相等）
+``` javascript
+var colors1 = ["red", "green", "blue"];
+console.log(colors1.splice(0, 1));                       // ["red"]
+console.log(colors1);                                    // ["green", "blue"]
+
+var colors2 = ["red", "green", "blue"];
+console.log(colors2.splice(1, 0 ,"yellow", "orange"));   // []
+console.log(colors2);                                    // ["red", "yellow", "orange", "green", "blue"]
+
+var colors3 = ["red", "green", "blue"];
+console.log(colors3.splice(1, 1 ,"gold", "sliver"));     // ["green"]
+console.log(colors3);                                    // ["red", "gold", "sliver", "blue"]
+```
+## 位置方法
+indexOf( )从数组的开头向后找  
+lastIndexOf( )从数组的末尾向前找  
+两个参数：要查找的项，查找起点位置的索引（可选）  
+返回查找项在数组中的位置，没找到返回-1，__比较时会使用全等操作符（===）__
+``` javascript
+var arr = [1,2,3,4,5,4,3,2,1];
+console.log(arr.indexOf(4));          // 3
+console.log(arr.indexOf(4, 4));       // 5
+console.log(arr.lastIndexOf(4));      // 5
+console.log(arr.lastIndexOf(4, 4));   // 3
+```
