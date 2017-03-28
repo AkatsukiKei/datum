@@ -60,3 +60,20 @@ JSON如下：
     }
 ]
 ```
+## 解析与序列化
+序列化：JSON.stringify( )  
+解析：JSON.parse( )
+``` javascript
+var obj1 = {
+             type : "Offense",
+             hero : [
+                 "Tracer",
+                 "Genji",
+                 "Pharah"
+             ]
+         };
+var jsonText = JSON.stringify(obj1);
+console.log(jsonText);  // {"type":"Offense","hero":["Tracer","Genji","Pharah"]}
+
+var obj2 = JSON.parse(jsonText); //obj2与obj1相同
+```
