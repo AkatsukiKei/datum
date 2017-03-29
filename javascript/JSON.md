@@ -77,3 +77,12 @@ console.log(jsonText);  // {"type":"Offense","hero":["Tracer","Genji","Pharah"]}
 
 var obj2 = JSON.parse(jsonText); //obj2与obj1相同
 ```
+## JSONP
+JSONP是JSON with padding（填充式JSON或参数式JSON）的简写，是应用JSON的新方法。JSONP是被包含在函数调用中的JSON。
+``` json
+callback({ "name" : "Nicholas"});
+```
+JSONP由两部分组成：回调函数和数据。回调函数的名字一般是在请求中指定的：
+```
+http://freegeoip.net/json/?callback=handleResponse
+```
