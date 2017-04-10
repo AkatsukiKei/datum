@@ -86,3 +86,4 @@ JSONP由两部分组成：回调函数和数据。回调函数的名字一般是
 ```
 http://freegeoip.net/json/?callback=handleResponse
 ```
+JSONP是通过动态\<script\>元素来使用的，使用时可以为src属性指定一个跨域URL。
