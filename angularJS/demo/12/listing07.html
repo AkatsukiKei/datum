@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <title>ngRepeat指令动画</title>
+    <script src="angular.js"></script>
+    <script src="angular-animate.js"></script>
+    <script type="text/javascript">
+        var app = angular.module('myApp', ["ngAnimate"]);
+        app.controller('testctrl',function($scope) {
+            $scope.items = [
+                {value: "北京"},
+                {value: "上海"},
+                {value: "广州"},
+                {value: "深圳"},
+                {value: "石家庄"}
+            ];
+            $scope.addItem = function () {
+                $scope.items.push(this.item);
+                $scope.item = {};
+            };
+            $scope.removeItem = function (index) {
+                $scope.items.splice(index, 1);
+            }
+        })
+    </script>
+    <style type="text/css" media="screen">
+        .fade { transition: 1s linear all; }
+        .fade.ng-enter { opacity: 0; }
+        .fade.ng-enter.ng-enter-active { opacity: 1; }
+        .fade.ng-leave { opacity: 1; }
+        .fade.ng-leave.ng-leave-active { opacity: 0; }
+    </style>
+</head>
+<body ng-controller="testctrl">
+<div>
+    <h1>城市列表</h1>
+    <ul>
+        <li ng-repeat="item in items" class="fade">
+            {{item.value}}
+            <a href="javascript:void(0);" ng-click="removeItem($index)">关闭</a>
+        </li>
+    </ul>
+    <br />
+    <input type="text" ng-model="item.value" />
+    <button ng-click="addItem()">添加城市</button>
+</div>
+</body>
+</html>

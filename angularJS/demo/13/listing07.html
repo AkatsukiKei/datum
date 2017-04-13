@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <meta charset="utf-8">
+    <title>使用$provide_constant</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .config(function($provide){
+            //用于向控制器传递常量
+            $provide.constant('num',5);
+            $provide.constant('num1','hi');
+            $provide.constant('num2',[10,20,30]);
+            $provide.constant('num3',{name:'lily'});
+        })
+        .controller("defaultCtrl", function ($scope,num,num1,num2,num3) {
+            $scope.clicked = function () {
+                console.log('constant输出值为：'+num+','+num1+','+num2+','+num3.name);
+            };
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+       <button class="btn btn-primary" ng-click="clicked()">单击我试试看!</button>
+    </div>
+</body>
+</html>

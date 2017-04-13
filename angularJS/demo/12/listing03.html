@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>自定义动画</title>
+    <script src="angular.js"></script>
+    <script src="angular-animate.js"></script>
+    <script>
+        var app = angular.module('myApp', ['ngAnimate']);
+    </script>
+    <style>
+        div {transition: all linear 0.5s;background: lightblue;
+            height: 100px;width: 100%;}
+        .ng-hide {height: 0;width: 0;background: transparent;}
+        .ng-hide-add{background:#f00}
+        .ng-hide-add-active{background:#f0f}
+        .ng-hide-remove{background:#ff0}
+        .ng-hide-remove-active{background:#0ff}
+    </style>
+
+</head>
+<body ng-app="myApp">
+    <h1>隐藏 DIV: <input type="checkbox" ng-model="myCheck"></h1>
+    <div ng-hide="myCheck"></div>
+</body>
+</html>

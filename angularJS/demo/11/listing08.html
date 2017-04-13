@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app='DemoApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>路由参数</title>
+    <script src="angular.js"></script>
+    <script src="angular-route.js"></script>
+    <script>
+        angular.module('DemoApp',['ngRoute'])
+        .config(function($routeProvider){
+                $routeProvider
+                .when('/',{template:'这是当前页面'})
+                .when('/post',{
+                    templateUrl:'aa.html',
+                    controller:"post1"
+
+                })
+                .when('/post/:postid', {
+                    templateUrl: 'bb.html',
+                    controller:"postid"
+
+                })
+                .otherwise({redirectTo:'/'});
+            })
+        .controller('post1',function ($scope) {
+            $scope.posts={id:'a1111',post:'post1'};
+        })
+        .controller('postid',function ($scope, $routeParams) {
+            $scope.msg = 'id: ' + $routeParams.postid;
+            console.log($scope.msg);
+        })
+    </script>
+</head>
+<body ng-controller="post1">
+<h2>AngularJS 路由应用</h2>
+<ul>
+    <li><a href="#">首页</a></li>
+    <li><a href="#/post">公司简介</a></li>
+    <li><a href="#/post/{{posts.id}}">新闻中心</a></li>
+    <li><a href="#/c">其他</a></li>
+</ul>
+<div ng-view></div>
+</body>
+</html>

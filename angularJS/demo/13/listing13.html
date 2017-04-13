@@ -1,0 +1,39 @@
+<html ng-app="exampleApp">
+<head>
+    <title>推断式注入</title>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .config(function($provide){
+            $provide.factory('hello1',function(){
+                return{
+                    hello:function(){
+                        console.log('hello1');
+                    }
+                }
+            });
+            $provide.factory('hello2',function(){
+                return{
+                    hello:function(){
+                        console.log('hello2');
+                    }
+                }
+            })
+        })
+        .controller("defaultCtrl", function($scope,hello1,hello2){
+            $scope.hello = function(){
+                hello1.hello();
+                hello2.hello();
+            }
+        });
+
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+       <button class="btn btn-primary" ng-click="hello()">单击!</button>
+    </div>
+</body>
+</html>

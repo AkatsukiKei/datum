@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app='DemoApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>定义路由表</title>
+    <script src="angular.js"></script>
+    <script src="angular-route.js"></script>
+    <script>
+        angular.module('DemoApp',['ngRoute'])
+            .config(function($routeProvider){
+                $routeProvider
+                        .when('/',{template:'这是首页页面'})
+                        .when('/product',{template:'这是公司简介页面'})
+                        .when('/news',{template:'这是新闻中心页面'})
+                        .otherwise({redirectTo:'/'});
+            });
+    </script>
+</head>
+<body>
+<h2>AngularJS 路由应用</h2>
+<ul>
+    <li><a href="#/">首页</a></li>
+    <li><a href="#/product">公司简介</a></li>
+    <li><a href="#/news">新闻中心</a></li>
+    <li><a href="#/blabla">点击其他返回首页</a></li>
+</ul>
+<div ng-view>这是路由控制的视图</div>
+</body>
+</html>

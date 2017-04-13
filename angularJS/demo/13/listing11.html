@@ -1,0 +1,33 @@
+<html ng-app="exampleApp">
+<head>
+    <title>$injector.invoke</title>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $injector) {
+            var counter = 0;
+            var logClick = function ($log, $handler, message) {
+                if (counter == 0) {
+                    $log.log(message);
+                    counter++;
+                } else {
+                    $handler("不存在的服务");
+                }
+            };
+            $scope.clicked = function () {
+                //与调用的函数参数一致的属性的对象
+                var localVars = {$handler:'handler',message: "message"};
+                //找到服务，为服务（不存在的服务）提供自定义的值
+                $injector.invoke(logClick, null, localVars);
+            };
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+       <button class="btn btn-primary" ng-click="clicked()">单击!</button>
+    </div>
+</body>
+</html>

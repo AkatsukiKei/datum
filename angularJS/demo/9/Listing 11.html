@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Promise对象的方法</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope,$q) {
+            var defer1 = $q.defer();
+            //创建一个deferred对象
+            var promise1 = defer1.promise;
+            //返回一个promise对象
+            promise1
+                    //then中有三个参数，分别是成功回调、失败回调、状态变更回调。
+                    .then(function(value){
+                        console.log("promise1 ---- success");
+                        console.log(value);
+                    })
+                    .catch(function(e){
+                        console.log("promise1 ---- catch");
+                        console.log(e);
+                    })
+                    .finally(function(value){
+                        console.log('promise1 ---- finally');
+                        console.log(value);
+                    });
+            defer1.resolve("hello，resolve");
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+
+    </div>
+</body>
+</html>

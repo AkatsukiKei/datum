@@ -1,0 +1,8 @@
+﻿<products>
+  <product name="苹果" category="水果" price="1.20" expiry="10" />
+  <product name="香蕉" category="水果" price="2.42" expiry="7" />
+  <product name="梨" category="水果" price="2.02" expiry="10" />
+  <product name="金枪鱼" category="鱼" price="20.45" expiry="3" />
+  <product name="鲑鱼" category="鱼" price="17.93" expiry="2" />
+  <product name="鳟鱼" category="鱼" price="12.93" expiry="4" />
+</products>

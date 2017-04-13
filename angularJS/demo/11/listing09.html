@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app='DemoApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>路由参数</title>
+    <script src="angular.js"></script>
+    <script src="angular-route.js"></script>
+    <script src="listing10.js"></script>
+    <script>
+        angular.module('DemoApp',['route1','ngRoute'])
+                .config(function($routeProvider){
+                    $routeProvider.otherwise({redirectTo:'/'});
+                })
+                .controller('post',function ($scope) {
+                    $scope.posts=[
+                        {id:'no001',post:'post1'},
+                        {id:'no002',post:'post2'},
+                        {id:'no003',post:'post3'},
+                        {id:'no004',post:'post4'}
+                    ];
+                })
+    </script>
+</head>
+<body ng-controller="post">
+<h2>AngularJS 路由应用</h2>
+<table width="100%" border="1" style="border-collapse:collapse;" cellpadding="5">
+    <tr><td>id</td><td>内容</td></tr>
+    <tr ng-repeat="p in posts">
+        <td>{{p.id}}</td>
+        <td><a href='#/post/{{p.id}}'>{{p.post}}</a></td>
+    </tr>
+</table>
+<div ng-view></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app='DemoApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>route_config</title>
+    <script src="angular.js"></script>
+    <script src="angular-route.js"></script>
+    <script>
+        angular.module('DemoApp',['ngRoute'])
+            .config(function($routeProvider){
+                        //......
+            });
+            //.config([$routeProvider,function($routeProvider){
+                        //......
+           // }]);
+    </script>
+</head>
+<body>
+<div ng-view>这是路由控制的视图</div>
+</body>
+</html>

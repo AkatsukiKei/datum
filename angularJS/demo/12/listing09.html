@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="Demo" >
+<head>
+    <meta charset="utf-8" />
+    <title>为指令添加动画</title>
+    <script src="angular.js"></script>
+    <script src="angular-animate.js"></script>
+    <script type="text/javascript">
+       var app = angular.module('Demo', ["ngAnimate"]);
+        app.directive("myDir", function($animate, $compile){
+            return {
+                link: function (scope, element, attr) {
+                    var isAppend = false;
+                    var parent = element.parent();
+                    var box;
+                    element.on('click', function () {
+                        isAppend = !isAppend;
+                        if (isAppend) {
+                            box = angular.element('<div class="fade"></div>');
+                            scope.$apply($animate.enter(box, parent, element, function () {
+                                console.log("Done entering");
+                            }));
+                        } else {
+                            scope.$apply($animate.leave(box, function () {
+                                console.log("Done leaving");
+                            }));
+                        }
+                    });
+                }
+            };
+        });
+        app.controller('testCtrl',function(){
+
+        });
+    </script>
+    <style type="text/css" media="screen">
+        .fade {
+            width: 100px;
+            height: 100px;
+            background-color: #ff9933;
+            transition: 1s linear all;
+            }
+        .fade.ng-enter { opacity: 0; }
+        .fade.ng-enter.ng-enter-active { opacity: 1; }
+        .fade.ng-leave { opacity: 1; }
+        .fade.ng-leave.ng-leave-active { opacity: 0; }
+    </style>
+</head>
+<body ng-controller="testCtrl">
+<button my-dir>淡入/淡出</button>
+</body>
+</html>

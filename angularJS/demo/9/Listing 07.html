@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Ajax-transformRequest</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $http) {
+            $scope.loadData = function () {
+                $http.get("productData.json").success(function (data) {
+                    $scope.products = data;
+                });
+            };
+            $scope.sendData = function() {
+                var config = {
+                    headers: {
+                        "content-type": "application/xml"
+                    },
+                    transformRequest: function (data, headers) {
+                        var rootElem = angular.element("<xml>");
+                        //使用jqLite生成XML
+                        for (var i = 0; i < data.length; i++) {
+                            //使用jqLite生成XML元素
+                            var prodElem = angular.element("<product>");
+                            prodElem.attr("name", data[i].name);
+                            prodElem.attr("category", data[i].category);
+                            prodElem.attr("price", data[i].price);
+                            rootElem.append(prodElem);
+                        }
+                        rootElem.children().wrap("<products>");
+                        //wrap() 方法使用指定的 HTML 元素来包裹每个被选元素。
+                        return rootElem.html();
+                    }
+                };
+                $http.post("ajax.html", $scope.products, config);
+                //post(URL,data,config)为指定的URL执行post请求提交指定数据
+            }
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <table class="table table-striped table-bordered">
+                <thead><tr><th>名称</th><th>类型</th><th>价格</th></tr></thead>
+                <tbody>
+                <tr ng-hide="products.length">
+                    <!--无数据时显示-->
+                    <td colspan="3" class="text-center">暂无数据</td>
+                </tr>
+                <tr ng-repeat="item in products">
+                    <td>{{item.name}}</td>
+                    <td>{{item.category}}</td>
+                    <td>{{item.price | currency:'￥'}}</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>
+                <button class="btn btn-primary" ng-click="loadData()">加载数据</button>
+                <button class="btn btn-primary" ng-click="sendData()">发送数据</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

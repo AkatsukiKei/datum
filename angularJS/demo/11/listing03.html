@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app='DemoApp'>
+<head>
+    <meta charset="UTF-8">
+    <title>定义路由</title>
+    <script src="angular.js"></script>
+    <script src="angular-route.js"></script>
+    <script>
+        angular.module('DemoApp',['ngRoute'])
+            .config(function($routeProvider){
+                $routeProvider
+                .when("/hi",{
+                    template:"hello"
+                });
+            });
+    </script>
+</head>
+<body>
+<a href="#/hi">点击试试看</a>
+<div ng-view>这是路由控制的视图</div>
+</body>
+</html>

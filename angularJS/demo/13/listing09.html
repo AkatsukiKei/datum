@@ -1,0 +1,38 @@
+<html ng-app="exampleApp">
+<head>
+    <title>过滤函数参数</title>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $injector) {
+            var counter = 0;
+            var logClick = function ($log, $handler, message) {
+                if (counter == 0) {
+                    $log.log(message);
+                    counter++;
+                } else {
+                    $handler("不存在的服务");
+                }
+            };
+            $scope.clicked = function () {
+                //获取指定函数的参数
+                var deps = $injector.annotate(logClick);
+                for (var i = 0; i < deps.length; i++) {
+                    //过滤函数参数，判断服务是否存在，存在返回真
+                    if ($injector.has(deps[i])) {
+                        console.log("logClick函数的参数: " + deps[i]);
+                    }
+                }
+            };
+        });
+    </script>
+
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+       <button class="btn btn-primary" ng-click="clicked()">单击!</button>
+    </div>
+</body>
+</html>

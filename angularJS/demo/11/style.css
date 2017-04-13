@@ -1,0 +1,43 @@
+#content{
+    border:5px solid #f90;
+    overflow: hidden;
+}
+#leftpanel{
+    background-color:#d58512;
+    width: 300px;
+    float: left;
+    padding-bottom: 3000px;
+    margin-bottom: -3000px;
+}
+#leftpanel a{
+      color:#fff;
+      text-decoration: none;
+}
+#leftpanel a:hover{
+    color:#000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#leftpanel ul{
+    list-style: none;
+}
+#leftpanel li{
+    height:30px;
+}
+#right{padding-left: 300px;}
+#rightpanel{
+    padding:5px;
+}
+.date{
+    font-size: 14px;
+    color:#f00;
+}
+.content{
+    height:260px;
+    background-color:#f0ad4e;
+    padding:20px;
+}
+#container{
+    padding:20px;
+    margin: 20px;
+}

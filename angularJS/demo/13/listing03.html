@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <meta charset="utf-8">
+    <title>使用$provide_service</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .config(function($provide){
+            $provide.service('$log',function(){
+                return{
+                    log: function (msg) {
+                        console.log("输出信息："+ msg);
+                    }
+                };
+            })
+        })
+        .controller("defaultCtrl", function ($scope, $log) {
+            $scope.clicked = function () {
+                $log.log("按钮被点击了");
+            };
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+       <button class="btn btn-primary" ng-click="clicked()">单击我试试看!</button>
+    </div>
+</body>
+</html>

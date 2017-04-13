@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <title>Promises-defer</title>
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope,$q) {
+            var defer1 = $q.defer();
+            //创建一个deferred对象
+            var promise1 = defer1.promise;
+            //返回一个promise对象
+            promise1
+                    //then中有三个参数，分别是成功回调、失败回调、状态变更回调。
+                    .then(function(value){
+                        console.log("promise1 ---- success");
+                        console.log(value);
+                    },function(value){
+                        console.log("promise1 ---- error");
+                        console.log(value);
+                    },function(value){
+                        console.log("promise1 ---- notify");
+                        console.log(value);
+                    });
+            defer1.resolve("hello，resolve");
+            //变为完成状态
+            //defer1.reject("sorry,reject");
+            //变为拒绝状态
+            //defer1.notify("new,notify");
+            //更新
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+
+    </div>
+</body>
+</html>

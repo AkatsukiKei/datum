@@ -1,0 +1,32 @@
+<html ng-app="exampleApp">
+<head>
+    <title>从根元素中获取$injector服务</title>
+    <meta charset="utf-8">
+    <script src="angular.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <script>
+        angular.module("exampleApp", [])
+        .controller("defaultCtrl", function ($scope, $rootElement) {
+            var counter = 0;
+            var logClick = function ($log, $handler, message) {
+                if (counter == 0) {
+                    $log.log(message);
+                    counter++;
+                } else {
+                    $handler("不存在的服务");
+                }
+            };
+            $scope.clicked = function () {
+                var localVars = { $handler:'handler',message: "message" };
+                //从根元素中获取$injector服务
+                $rootElement.injector().invoke(logClick, null, localVars);
+            };
+        });
+    </script>
+</head>
+<body ng-controller="defaultCtrl">
+    <div class="well">
+       <button class="btn btn-primary" ng-click="clicked()">单击!</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>自定义动画</title>
+    <script src="angular.js"></script>
+    <script src="angular-animate.js"></script>
+    <script>
+        var app = angular.module('myApp', ['ngAnimate']);
+        app.controller('ctrl1',function($scope){
+            $scope.items=[10,20,30,40,50];
+            $scope.del=function (index) {
+                $scope.items.splice(index, 1);
+            };
+        });
+    </script>
+    <style>
+        .fade {color: #ff9933;font-size:20px;transition: 1s linear all;}
+        .fade.ng-enter { opacity: 0; }
+        .fade.ng-enter.ng-enter-active { opacity: 1; }
+        .fade.ng-leave { opacity: 1; }
+        .fade.ng-leave.ng-leave-active { opacity: 0; }
+    </style>
+
+</head>
+<body ng-controller="ctrl1">
+    保留 HTML: <input type="checkbox" ng-model="myVar" ng-init="myVar = true">
+    <div ng-if="myVar" class="fade">
+        <h1>Welcome</h1>
+        <p>Welcome to my home.</p>
+        <hr>
+    </div>
+    <p>当复选框取消选中时 DIV 元素将移除。</p>
+    <p>当重新选中复选框，DIV 元素会重新显示。</p>
+</body>
+</html>
