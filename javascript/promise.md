@@ -25,22 +25,22 @@ js:
 ``` javascript
 angular.module("MyApp", [])
 .controller("MyController", ["$scope", "$q", function ($scope, $q) {
-            $scope.flag = true;
-            $scope.handle = function () {
-            var deferred = $q.defer();
-            var promise = deferred.promise;
+    $scope.flag = true;
+    $scope.handle = function () {
+        var deferred = $q.defer();
+        var promise = deferred.promise;
 
-            promise.then(function (result) {
-                alert("Success: " + result);
-            }, function (error) {
-                alert("Fail: " + error);
-            });
+        promise.then(function (result) {
+            alert("Success: " + result);
+        }, function (error) {
+            alert("Fail: " + error);
+        });
 
-            if ($scope.flag) {
-                deferred.resolve("you are lucky!");
-            } else {
-                deferred.reject("sorry, it lost!");
-            }
+        if ($scope.flag) {
+            deferred.resolve("you are lucky!");
+        } else {
+            deferred.reject("sorry, it lost!");
         }
+    }
 }]);
 ```
