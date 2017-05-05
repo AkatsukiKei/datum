@@ -8,7 +8,7 @@ defer( )对象提供三种方法：resolve( )、reject( )、notify( )
 * resolve( )用来执行deferred promise
 * reject( )用来拒绝deferred promise
 * notify( )用来获取deferred promise的状态
-<br>
+  
 html:
 ``` html
 <div ng-app="MyApp">
