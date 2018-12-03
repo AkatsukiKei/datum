@@ -1,5 +1,5 @@
 # coding:utf8
-import urllib2
+import urllib2,cookielib
 
 url = "http://www.baidu.com"
 
@@ -9,7 +9,7 @@ print response1.getcode()
 print len(response1.read())
 
 print 'second method'
-request = urllib2.Request
+request = urllib2.Request(url)
 request.add_header('User-Agent','Mozilla/5.0')
 response2 = urllib2.urlopen(request)
 print response2.getcode()
@@ -22,4 +22,4 @@ urllib2.install_opener(opener)
 response3 = urllib2.urlopen(url)
 print response3.getcode()
 print cj
-print response3.read()
+print len(response3.read())
