@@ -1,4 +1,5 @@
-# coding:utf8
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
 import urllib2,cookielib
 
 url = "http://www.baidu.com"
