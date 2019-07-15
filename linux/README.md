@@ -35,7 +35,7 @@ pip安装django和uwsgi
 
 ```shell
 upstream django {
-	server 127.0.0.1:8001; # for a web port socket
+    server 127.0.0.1:8001; # for a web port socket
 }
 
 server {
@@ -43,15 +43,15 @@ server {
     server_name  localhost;
 
     location / {
-    	root   /var/www/html;  # your html path
-    	index  index.html index.htm;
+        root   /var/www/html;  # your html path
+        index  index.html index.htm;
     }
 
-	# 注意这里的/api，是前端请求的格式，urls.py中要设置成相同的格式
-	# 前端请求： http://localhost/api/test
-	# urls.py： url(r'^api/test',test.views)
+    # 注意这里的/api，是前端请求的格式，urls.py中要设置成相同的格式
+    # 前端请求： http://localhost/api/test
+    # urls.py： url(r'^api/test',test.views)
     location /api {
-    	proxy_pass   http://django;
+        proxy_pass   http://django;
     }
 }
 
@@ -62,4 +62,9 @@ server {
 ```shell
 uwsgi --http :8001 --file /your/wsgi.py/path/wsgi.py
 ```
+
+#### MobaXterm使用sz、rz命令
+MobaXterm也可以使用sz、rz命令，但比Xshell要多一个步骤\
+输入rz命令后，右键选择*Send file using Z-modem*\
+输入sz命令后，右键选择*Receive file using Z-modem*
 
